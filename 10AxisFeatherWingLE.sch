@@ -699,23 +699,23 @@ SDO
 $Comp
 L Connector_Generic:Conn_01x05 J6
 U 1 1 5E2059E9
-P 9500 5500
-F 0 "J6" H 9580 5542 50  0000 L CNN
-F 1 "feather breakout" H 9580 5451 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9500 5500 50  0001 C CNN
-F 3 "~" H 9500 5500 50  0001 C CNN
-	1    9500 5500
+P 9550 5000
+F 0 "J6" H 9630 5042 50  0000 L CNN
+F 1 "feather breakout" H 9630 4951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9550 5000 50  0001 C CNN
+F 3 "~" H 9550 5000 50  0001 C CNN
+	1    9550 5000
 	1    0    0    -1  
 $EndComp
-Text Label 9000 5300 0    50   ~ 0
+Text Label 9050 4800 0    50   ~ 0
 DRDY
-Text Label 9000 5400 0    50   ~ 0
+Text Label 9050 4900 0    50   ~ 0
 INT
-Text Label 9000 5500 0    50   ~ 0
+Text Label 9050 5000 0    50   ~ 0
 INT1
-Text Label 9000 5600 0    50   ~ 0
+Text Label 9050 5100 0    50   ~ 0
 INT2
-Text Label 9000 5700 0    50   ~ 0
+Text Label 9050 5200 0    50   ~ 0
 DEN
 Wire Wire Line
 	3750 6050 3750 6500
@@ -856,15 +856,15 @@ F 3 "~" H 7500 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9000 5300 9300 5300
+	9050 4800 9350 4800
 Wire Wire Line
-	9000 5400 9300 5400
+	9050 4900 9350 4900
 Wire Wire Line
-	9000 5500 9300 5500
+	9050 5000 9350 5000
 Wire Wire Line
-	9000 5600 9300 5600
+	9050 5100 9350 5100
 Wire Wire Line
-	9000 5700 9300 5700
+	9050 5200 9350 5200
 Wire Wire Line
 	7000 5400 7300 5400
 Wire Wire Line
@@ -903,4 +903,50 @@ F 3 "" H 6850 5800 50  0001 C CNN
 	1    6850 5800
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E162FA6
+P 9250 5750
+F 0 "H1" H 9350 5796 50  0000 L CNN
+F 1 "MountingHole" H 9350 5705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9250 5750 50  0001 C CNN
+F 3 "~" H 9250 5750 50  0001 C CNN
+	1    9250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E163654
+P 9250 6000
+F 0 "H2" H 9350 6046 50  0000 L CNN
+F 1 "MountingHole" H 9350 5955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9250 6000 50  0001 C CNN
+F 3 "~" H 9250 6000 50  0001 C CNN
+	1    9250 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5E163A5D
+P 9250 6250
+F 0 "H3" H 9350 6296 50  0000 L CNN
+F 1 "MountingHole" H 9350 6205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9250 6250 50  0001 C CNN
+F 3 "~" H 9250 6250 50  0001 C CNN
+	1    9250 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5E163E72
+P 9250 6500
+F 0 "H4" H 9350 6546 50  0000 L CNN
+F 1 "MountingHole" H 9350 6455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9250 6500 50  0001 C CNN
+F 3 "~" H 9250 6500 50  0001 C CNN
+	1    9250 6500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8350 5500 10500 5500
 $EndSCHEMATC
