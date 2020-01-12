@@ -697,10 +697,10 @@ SDA
 Text Label 2250 6000 0    50   ~ 0
 SDO
 $Comp
-L Connector_Generic:Conn_01x05 J6
+L Connector_Generic:Conn_01x05 J5
 U 1 1 5E2059E9
 P 9550 5000
-F 0 "J6" H 9630 5042 50  0000 L CNN
+F 0 "J5" H 9630 5042 50  0000 L CNN
 F 1 "feather breakout" H 9630 4951 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9550 5000 50  0001 C CNN
 F 3 "~" H 9550 5000 50  0001 C CNN
@@ -845,10 +845,10 @@ Wire Wire Line
 Text Label 6750 3750 0    50   ~ 0
 SDO
 $Comp
-L Connector_Generic:Conn_01x04 J5
+L Connector_Generic:Conn_01x04 J6
 U 1 1 5E2B8C1A
 P 7500 5500
-F 0 "J5" H 7580 5492 50  0000 L CNN
+F 0 "J6" H 7580 5492 50  0000 L CNN
 F 1 "grove connector" H 7580 5401 50  0000 L CNN
 F 2 "Connector:NS-Tech_Grove_1x04_P2mm_Vertical" H 7500 5500 50  0001 C CNN
 F 3 "~" H 7500 5500 50  0001 C CNN

@@ -1,4 +1,4 @@
-update=1/7/2020 5:05:36 AM
+update=1/11/2020 6:14:32 PM
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -28,10 +38,10 @@ MinViaDrill=0.254
 MinMicroViaDiameter=0
 MinMicroViaDrill=0
 MinHoleToHole=0.254
-TrackWidth1=0.1524
-ViaDiameter1=0.6858
-ViaDrill1=0.3302
-dPairWidth1=0.1524
+TrackWidth1=0.254
+ViaDiameter1=0.6096
+ViaDrill1=0.3048
+dPairWidth1=0.254
 dPairGap1=0.1524
 dPairViaGap1=0.25
 SilkLineWidth=0.07619999999999999
@@ -47,7 +57,7 @@ CopperTextThickness=0.3048
 CopperTextItalic=0
 CopperTextUpright=1
 EdgeCutLineWidth=0.1524
-CourtyardLineWidth=0.0508
+CourtyardLineWidth=0.05
 OthersLineWidth=0.1524
 OthersTextSizeV=1.016
 OthersTextSizeH=1.016
@@ -228,21 +238,11 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.1524
-TrackWidth=0.1524
-ViaDiameter=0.6858
-ViaDrill=0.3302
-uViaDiameter=0.6858
-uViaDrill=0.3302
-dPairWidth=0.1524
+TrackWidth=0.254
+ViaDiameter=0.6096
+ViaDrill=0.3048
+uViaDiameter=0.6096
+uViaDrill=0.3048
+dPairWidth=0.254
 dPairGap=0.1524
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
