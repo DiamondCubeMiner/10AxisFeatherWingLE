@@ -849,8 +849,8 @@ L Connector_Generic:Conn_01x04 J6
 U 1 1 5E2B8C1A
 P 7500 5500
 F 0 "J6" H 7580 5492 50  0000 L CNN
-F 1 "grove connector" H 7580 5401 50  0000 L CNN
-F 2 "Connector:NS-Tech_Grove_1x04_P2mm_Vertical" H 7500 5500 50  0001 C CNN
+F 1 "stemma connector" H 7580 5401 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 7500 5500 50  0001 C CNN
 F 3 "~" H 7500 5500 50  0001 C CNN
 	1    7500 5500
 	1    0    0    -1  
