@@ -186,10 +186,6 @@ Wire Notes Line
 	6200 2550 10500 2550
 Wire Notes Line
 	6200 4600 10500 4600
-Wire Notes Line
-	6200 6650 10500 6650
-Wire Notes Line
-	6200 500  6200 6650
 $Comp
 L Connector_Generic:Conn_01x16 J3
 U 1 1 5E0C551A
@@ -844,17 +840,6 @@ Wire Wire Line
 	8000 3750 8000 4000
 Text Label 6750 3750 0    50   ~ 0
 SDO
-$Comp
-L Connector_Generic:Conn_01x04 J6
-U 1 1 5E2B8C1A
-P 7500 5500
-F 0 "J6" H 7580 5492 50  0000 L CNN
-F 1 "stemma connector" H 7580 5401 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 7500 5500 50  0001 C CNN
-F 3 "~" H 7500 5500 50  0001 C CNN
-	1    7500 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9050 4800 9350 4800
 Wire Wire Line
@@ -865,44 +850,6 @@ Wire Wire Line
 	9050 5100 9350 5100
 Wire Wire Line
 	9050 5200 9350 5200
-Wire Wire Line
-	7000 5400 7300 5400
-Wire Wire Line
-	7000 5500 7300 5500
-Text Label 7000 5400 0    50   ~ 0
-SCL
-Text Label 7000 5500 0    50   ~ 0
-SDA
-Wire Wire Line
-	6850 5600 6850 5500
-Wire Wire Line
-	6850 5600 7300 5600
-Wire Wire Line
-	6850 5700 6850 5800
-Wire Wire Line
-	6850 5700 7300 5700
-$Comp
-L power:+3.3V #PWR014
-U 1 1 5E330536
-P 6850 5500
-F 0 "#PWR014" H 6850 5350 50  0001 C CNN
-F 1 "+3.3V" H 6865 5673 50  0000 C CNN
-F 2 "" H 6850 5500 50  0001 C CNN
-F 3 "" H 6850 5500 50  0001 C CNN
-	1    6850 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR015
-U 1 1 5E330953
-P 6850 5800
-F 0 "#PWR015" H 6850 5550 50  0001 C CNN
-F 1 "GND" H 6855 5627 50  0000 C CNN
-F 2 "" H 6850 5800 50  0001 C CNN
-F 3 "" H 6850 5800 50  0001 C CNN
-	1    6850 5800
-	1    0    0    -1  
-$EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5E162FA6
@@ -949,4 +896,8 @@ F 3 "~" H 9250 6500 50  0001 C CNN
 $EndComp
 Wire Notes Line
 	8350 5500 10500 5500
+Wire Notes Line
+	8350 6650 10500 6650
+Wire Notes Line
+	6200 4600 6200 500 
 $EndSCHEMATC
