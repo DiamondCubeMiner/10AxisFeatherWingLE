@@ -6,21 +6,16 @@ This featherwing uses I2C to connect both the IMU (LSM9DS1) and the altimeter (B
 I made this to design projects that require a 10-DOF IMU in a tiny package where breakouts can affect the weight a lot and may not be a good option, such as a quadcopter, a model plane, or a model rocket.
 
 ## Drivers ##
-This project is designed to use [Adafruit Unified Sensor Drivers](https://github.com/adafruit/Adafruit_Sensor).
-  - [Adafruit_LSM9DS1](https://github.com/adafruit/Adafruit_LSM9DS1/)
-  - [Adafruit_BMP280_Library](https://github.com/adafruit/Adafruit_BMP280_Library/)
+These drivers should work as the project is a derivative of SparkFun hardware:
+  - [SparkFun_LSM9DS1_Arduino_Library](https://github.com/sparkfun/SparkFun_LSM9DS1_Arduino_Library)
+  - [SparkFun_BME280_Arduino_Library](https://github.com/sparkfun/SparkFun_BME280_Arduino_Library)
 
 ## Thanks ##
 This project is derived from the following projects:
-  - [Adafruit-ADXL343-ADT7410-Featherwing-PCB](https://github.com/adafruit/Adafruit-ADXL343-ADT7410-Featherwing-PCB)
-  - [Adafruit-LSM9DS1-Breakout-PCB](https://github.com/adafruit/Adafruit-LSM9DS1-Breakout-PCB)
-  - [Adafruit-BMP280-Breakout-PCB](https://github.com/adafruit/Adafruit-BMP280-Breakout-PCB)
+  - [SparkFun 9DoF Sensor Stick](https://github.com/sparkfun/9DOF_Sensor_Stick)
+  - [SparkFun Atmospheric Sensor Breakout - BME280 (Qwiic)](https://github.com/sparkfun/Qwiic_Atmospheric_Sensor_Breakout_BME280)
 
-Thanks to Adafruit for their open-source schematics!
-
-Thanks to ppelleti for the awesome FeatherWing Template!
-
-[FeatherWing-template-KiCad](https://github.com/ppelleti/FeatherWing-template-KiCad)
+Thanks to Sparkfun for their open-source schematics and libraries!
 
 ## License ##
-This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or by opening license.txt included in this project.
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
